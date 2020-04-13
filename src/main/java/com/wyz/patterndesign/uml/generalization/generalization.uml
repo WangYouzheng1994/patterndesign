@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.wyz.patterndesign.uml.generalization.PersonServiceBean</OriginalElement>
+  <nodes>
+    <node x="25.0" y="0.0">com.wyz.patterndesign.uml.generalization.DaoSupport</node>
+    <node x="0.0" y="79.0">com.wyz.patterndesign.uml.generalization.PersonServiceBean</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.wyz.patterndesign.uml.generalization.PersonServiceBean" target="com.wyz.patterndesign.uml.generalization.DaoSupport">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="85.0" y="54.0" />
+  <SelectedNodes>
+    <node>com.wyz.patterndesign.uml.generalization.PersonServiceBean</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
