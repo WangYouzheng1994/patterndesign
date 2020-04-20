@@ -4,9 +4,7 @@ import com.wyz.patterndesign.usecase.factory.simplefactory.pizzastore.pizza.Chee
 import com.wyz.patterndesign.usecase.factory.simplefactory.pizzastore.pizza.GreekPizza;
 import com.wyz.patterndesign.usecase.factory.simplefactory.pizzastore.pizza.Pizza;
 
-import java.io.BufferedReader;
-import java.io.InputStream;
-import java.io.InputStreamReader;
+import java.io.*;
 
 /**
  * @Author: WangYouzheng
@@ -73,6 +71,7 @@ public class OrderPizza {
 			BufferedReader strin = new BufferedReader(new InputStreamReader(System.in));
 			System.out.println("输入想要的披萨类型：");
 			String str = strin.readLine();
+
 			return str;
 		} catch (Exception e) {
 			e.printStackTrace();
